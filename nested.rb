@@ -59,9 +59,9 @@ def dennis_ritchies_language
           :known_for => "Unix",
           :languages => ["C"]
         }
-
+				binding.pry
 	programmer_hash[:dennis_ritchie][:languages]
-binding.pry
+
 end
 
 def adding_matz
