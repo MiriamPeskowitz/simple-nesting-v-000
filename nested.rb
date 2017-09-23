@@ -64,7 +64,7 @@ def dennis_ritchies_language
 	programmer_hash[:dennis_ritchie][:languages] =
 
 
-
+=begin
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
@@ -133,3 +133,4 @@ def adding_to_dennis
      }
 
 end
+=end
