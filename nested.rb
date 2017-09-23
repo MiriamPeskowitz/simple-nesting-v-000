@@ -59,40 +59,42 @@ def dennis_ritchies_language
           :known_for => "Unix",
           :languages => ["C"]
         }
+				:yukihiro_matsumoto => {
+				   :known_for => "Ruby",
+				   :languages => ["LISP", "C"]
+			 }
      }
 
 
-  dennis_ritchies_language = programmer_hash[:dennis_ritchie][:languages]
+programmer_hash[:dennis_ritchie][:languages]
 
 end
 
 def adding_matz
-# add the following information to the top level of programmer_hash
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#    :languages => ["LISP", "C"]
-# }
-
-
 
 	programmer_hash =
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-
-
+		{
+				:grace_hopper => {
+					:known_for => "COBOL",
+					:languages => ["COBOL", "FORTRAN"]
+				},
+				:alan_kay => {
+					:known_for => "Object Orientation",
+					:languages => ["Smalltalk", "LISP"]
+				},
+				:dennis_ritchie => {
+					:known_for => "Unix",
+					:languages => ["C"]
+				}
+				:yukihiro_matsumoto => {
+					 :known_for => "Ruby",
+					 :languages => ["LISP", "C"]
+			 }
+		 }
 end
+
+
+	
 
 def changing_alan
 	programmer_hash =
@@ -134,4 +136,3 @@ def adding_to_dennis
      }
 
 end
-
